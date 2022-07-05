@@ -1,6 +1,7 @@
 @import "./foundation/settings";
 @import "~foundation-sites/scss/foundation";
 @include foundation-everything;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 // place global css here
 *,
 *::before,
@@ -11,4 +12,295 @@
 :root {
   -moz-tab-size: 4;
   tab-size: 4;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.header-image img {
+  width: 1220px;
+  height: 555px;
+}
+
+.opening-header {
+  padding-left: 340px;
+  padding-right: 360px;
+  margin-bottom: 22px;
+}
+
+.opening-header p:first-of-type {
+  font-family: Georgia, serif;
+  text-align: center;
+  letter-spacing: 0.7px;
+  color: #666666;
+  opacity: 1;
+  font-size: 14px;
+}
+
+.opening-header h1 {
+  font-family: Georgia, serif;
+  text-align: center;
+  font-size: 44px;
+  letter-spacing: 2.2px;
+  margin-bottom: 47px;
+}
+
+.opening-p {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  opacity: 1;
+  font-size: 20px;
+}
+
+.consumer-technology {
+  padding-left: 173px;
+  padding-right: 340px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.consumer-left {
+  margin-top: 50px;
+  margin-right: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.blue-line {
+  width: 245px;
+  border: 2px solid #37ade1;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.consumer-left p {
+  font-family: Georgia, serif;
+  line-height: normal;
+  font-size: 25px;
+  opacity: 1;
+}
+
+.consumer-right {
+  margin-top: 20px;
+}
+
+.consumer-right p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  opacity: 1;
+  margin-bottom: 30px;
+}
+
+.who-we-are-top {
+  padding-left: 346px;
+  padding-right: 354px;
+}
+
+.who-we-are-top h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+}
+
+.who-we-are-top p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.who-we-are-list {
+  padding-left: 369px;
+  padding-right: 391px;
+}
+
+.who-we-are-list p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.list-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.italic {
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.ad-rectangle {
+  width: 100%;
+  height: 315px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-rectangle img {
+  width: 808px;
+  height: 208.25px;
+}
+
+.some-examples {
+  padding-left: 345px;
+  padding-right: 346px;
+}
+
+.some-examples p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.examples-p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.some-examples h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+}
+
+.some-examples-middle {
+  padding-left: 345px;
+  padding-right: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.some-examples-middle h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+}
+
+.some-examples-middle p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.ifrs {
+  width: 515px;
+}
+
+.related-Content h2 {
+  font-family: Georgia, serif;
+  font-size: 32px;
+  letter-spacing: 1.6px;
+}
+
+.related-content-tile {
+  border-top: 0.5px solid gray;
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.related-content-tile img {
+  height: 87px;
+  width: 88px;
+  margin-right: 25px;
+}
+
+.tile-title {
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px !important;
+}
+
+.tile-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold !important;
+  font-size: 14px !important;
+}
+
+.senior-manager {
+  width: 1220px;
+  height: 330px;
+  background-color: #f5f5f5;
+  margin-left: 140px;
+  margin-bottom: 40px;
+}
+
+.senior-manager img {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.more {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.more-right {
+  padding-left: 52px !important;
+  margin-right: 346px;
+  padding-top: 50px;
+  width: 487px;
+}
+
+.more-right p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.more-left {
+  margin-left: 167px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 420px;
+}
+
+.more-right h3{
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+}
+
+.more-left p {
+  font-family: Georgia, serif;
+  font-size: 28px;
+  letter-spacing: 1.4px;
+}
+
+.why{
+  padding-left: 346px;
+  padding-right: 346px;
+  margin-bottom: 100px;
+}
+
+.why h2{
+  font-size: 44px;
+  font-family: Georgia, serif;
+}
+
+.why p{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }

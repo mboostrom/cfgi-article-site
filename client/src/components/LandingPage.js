@@ -18,15 +18,17 @@ const LandingPage = (props) => {
         <img src={headerImage} alt="header-image" />
       </div>
       <div className="opening-header">
-        <p className="p-1">ACCOUNTING ADVISORY FOR CONSUMER BUSINESS</p>
-        <h1 className="header">DISRUPTIVE SHIFTS IN CONSUMER BUSINESS</h1>
-        <p>
+        <p>ACCOUNTING ADVISORY FOR CONSUMER BUSINESS</p>
+        <h1 className="header">
+          DISRUPTIVE SHIFTS IN <br /> CONSUMER BUSINESS
+        </h1>
+        <p className="opening-p">
           Retail with the consumer has evolved significantly. It is a world of multiple channels and
           retailer segments – online, mass merchants, dollar stores, department stores and specialty
           retail – competing for consumers. Consumers and technology have morphed rapidly, and
           retail has long ceased to be a “one-size-fits-all” proposition.
         </p>
-        <p>
+        <p className="opening-p">
           The impact of online retail and the retail story continues to unfold. We are witnessing a
           dramatically altered retail landscape, littered with the remains of well-known and
           historical retail brands.
@@ -69,23 +71,25 @@ const LandingPage = (props) => {
       </div>
       <div className="who-we-are-list">
         <p>
-          Highly experienced senior teams – Our seasoned professionals collaborate efficiently with
-          management to identify necessary business needs and manage difficult situations.
+          <span className="list-title">Highly experienced senior teams</span> – Our seasoned
+          professionals collaborate efficiently with management to identify necessary business needs
+          and manage difficult situations.
         </p>
         <p>
-          Specialized industry knowledge – Our experts have a deep knowledge of the retail and
-          consumer products landscape, with a detailed understanding of managing the inner workings
-          of a business and relevant key performance indicators.
+          <span className="list-title">Specialized industry knowledge</span> – Our experts have a
+          deep knowledge of the retail and consumer products landscape, with a detailed
+          understanding of managing the inner workings of a business and relevant key performance
+          indicators.
         </p>
         <p>
-          Broad range of comprehensive solution offerings – We bring a wide array of skillsets to
-          quickly identify challenges and offer solutions to drive sales and profitability, reduce
-          costs, and improve planning and forecasting.
+          <span className="list-title">Broad range of comprehensive solution offerings</span> – We
+          bring a wide array of skillsets to quickly identify challenges and offer solutions to
+          drive sales and profitability, reduce costs, and improve planning and forecasting.
         </p>
         <p>
-          Objectivity – Our experts are independent drivers of quick results. We understand that
-          time is of the essence. In critical situations, we move work within your teams and
-          leverage available data to provide actionable solutions.{" "}
+          <span className="list-title">Objectivity</span> – Our experts are independent drivers of
+          quick results. We understand that time is of the essence. In critical situations, we move
+          work within your teams and leverage available data to provide actionable solutions.{" "}
         </p>
         <p className="italic">
           If it pertains to finance, accounting, IT, shared services, supply chain, risk, compliance
@@ -96,7 +100,7 @@ const LandingPage = (props) => {
         <img src={carAd} alt="car-ad" />
       </div>
       <div className="some-examples">
-        <p>
+        <p className="examples-p">
           Some examples of how we deliver strategic support for retailers, distributors, wholesalers
           and consumer product manufacturers include:
         </p>
@@ -114,48 +118,50 @@ const LandingPage = (props) => {
           technologies at our command improve the employee experience, expedite productivity, reduce
           risk, cut costs and generate new revenue opportunities.
         </p>
-        <div className="some-examples-middle">
-          <div className="ifrs">
-            <h3>IFRS advisory</h3>
-            <p>
-              Getting through the IFRS conversion process and initial reporting period is a great
-              challenge. Companies converting to new accounting standards tend to underestimate what
-              is involved, particularly in terms of time and resources
-            </p>
-            <p>
-              Conversion to IFRS is much more than a technical accounting issue. IFRS may
-              significantly affect any number of a company’s day-to-day operations or even impact
-              the reported profitability of the business itself. Companies that have benefited most
-              from the transition are those that looked at this as a chance to make improvements to
-              their systems and processes and have used it as a focus for more efficient, timely and
-              meaningful internal and external financial information
-            </p>
+      </div>
+      <div className="some-examples-middle">
+        <div className="ifrs">
+          <h3>IFRS advisory</h3>
+          <p>
+            Getting through the IFRS conversion process and initial reporting period is a great
+            challenge. Companies converting to new accounting standards tend to underestimate what
+            is involved, particularly in terms of time and resources
+          </p>
+          <p>
+            Conversion to IFRS is much more than a technical accounting issue. IFRS may
+            significantly affect any number of a company’s day-to-day operations or even impact the
+            reported profitability of the business itself. Companies that have benefited most from
+            the transition are those that looked at this as a chance to make improvements to their
+            systems and processes and have used it as a focus for more efficient, timely and
+            meaningful internal and external financial information
+          </p>
+        </div>
+        <div className="related-Content">
+          <h2>RELATED CONTENT</h2>
+          <div className="related-content-tile">
+            <img src={contentTileOne} alt="content-picture" />
+            <div>
+              <p className="tile-title">Robotic Process Automation</p>
+              <p className="tile-name">Ed Sweeney<br />Partner</p>
+            </div>
           </div>
-          <div className="related-Content">
-            <h2>RELATED CONTENT</h2>
-            <div className="related-content-tile">
-              <img src={contentTileOne} alt="content-picture" />
-              <div>
-                <p className="tile-title">Robotic Process Automation</p>
-                <p className="tile-name">Ed Sweeney Partner</p>
-              </div>
+          <div className="related-content-tile">
+            <img src={contentTileTwo} alt="content-picture" />
+            <div>
+              <p className="tile-title">IFRS Compliance</p>
+              <p className="tile-name">Ed Sweeney<br />Partner</p>
             </div>
-            <div className="related-content-tile">
-              <img src={contentTileTwo} alt="content-picture" />
-              <div>
-                <p className="tile-title">IFRS Compliance</p>
-                <p className="tile-name">Ed Sweeney Partner</p>
-              </div>
-            </div>
-            <div className="related-content-tile">
-              <img src={contentTileThree} alt="content-picture" />
-              <div>
-                <p className="tile-title">Interim Financial Experts</p>
-                <p className="tile-name">Ed Sweeney Partner</p>
-              </div>
+          </div>
+          <div className="related-content-tile">
+            <img src={contentTileThree} alt="content-picture" />
+            <div>
+              <p className="tile-title">Interim Financial Experts</p>
+              <p className="tile-name">Ed Sweeney<br />Partner</p>
             </div>
           </div>
         </div>
+      </div>
+      <div className="some-examples">
         <p>
           CFGI helps companies to successfully complete the transition to IFRS and maintain
           compliance. The deep and relevant expertise of our advisors enables us to provide complex
@@ -183,7 +189,7 @@ const LandingPage = (props) => {
         </p>
         <p>Waleed Zafar, Senior Manager</p>
       </div>
-      <div className="bottom-exapmples">
+      <div className="some-examples">
         <h3>IPO readiness</h3>
         <p>
           Going public is a crucial phase of an innovative company’s development. Our experts are
