@@ -179,16 +179,6 @@ const LandingPage = (props) => {
           between.
         </p>
       </div>
-      <div className="senior-manager">
-        <img src={quotes} />
-        <p>
-          I get to collaborate with an amazing team of extremely nimble, adaptive, and highly
-          specialized professionals who are passionate about investing in their ability to learn,
-          unlearn and relearn to provide cutting-edge solutions to some of the most complex
-          challenges our clients face. With a support system like that, I can conquer any challenge.
-        </p>
-        <p>Waleed Zafar, Senior Manager</p>
-      </div>
       <div className="some-examples">
         <h3>IPO readiness</h3>
         <p>
