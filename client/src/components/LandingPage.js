@@ -17,6 +17,7 @@ const LandingPage = (props) => {
       <div className="header-image">
         <img src={headerImage} alt="header-image" />
       </div>
+      <div className="page-info">
       <div className="opening-header">
         <p>ACCOUNTING ADVISORY FOR CONSUMER BUSINESS</p>
         <h1 className="header">
@@ -65,8 +66,8 @@ const LandingPage = (props) => {
           approach and instilled a sense of urgency in solving problems.
         </p>
         <p>
-          Our consumer business experts bring a hands-on approach to retail and consumer product
-          business improvement, highlighted by:
+          Our consumer business experts bring a hands-on approach to retail and consumer 
+          product <br /> business improvement, highlighted by:
         </p>
       </div>
       <div className="who-we-are-list">
@@ -96,9 +97,11 @@ const LandingPage = (props) => {
           or any core business operation, we do it.
         </p>
       </div>
+      </div>
       <div className="ad-rectangle">
         <img src={carAd} alt="car-ad" />
       </div>
+      <div className="page-info">
       <div className="some-examples">
         <p className="examples-p">
           Some examples of how we deliver strategic support for retailers, distributors, wholesalers
@@ -197,7 +200,7 @@ const LandingPage = (props) => {
         </p>
       </div>
       <div className="more">
-        <div className="more-left">
+        <div className="consumer-left">
           <div className="blue-line"></div>
           <p>
             Our cross-functional specialists simultaneously approach every project from the lens of
@@ -225,6 +228,7 @@ const LandingPage = (props) => {
           We also have the resources to cost-effectively execute on our recommendations, and we
           deliver a service experience that is second to none to the consumer business industry.
         </p>
+      </div>
       </div>
       <div className="footer">
         <img src={footer} />
