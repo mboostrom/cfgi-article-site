@@ -5,15 +5,11 @@ import carAd from "../images/car-ad.png"
 import contentTileOne from "../images/content-tile-1.png"
 import contentTileTwo from "../images/content-tile-2.png"
 import contentTileThree from "../images/content-tile-3.png"
-import quotes from "../images/quotes.png"
-import footer from "../images/footer.png"
 
 const LandingPage = (props) => {
   return (
     <>
-      <div className="top-bar-image">
-        <img src={topBar} alt="top-bar" />
-      </div>
+      <div className="top-bar-image"></div>
       <div className="header-image">
         <img src={headerImage} alt="header-image" />
       </div>
@@ -230,8 +226,8 @@ const LandingPage = (props) => {
         </p>
       </div>
       </div>
-      <div className="footer">
-        <img src={footer} />
+      <div className="footer-block">
+        <div className="footer"></div>
       </div>
     </>
   )

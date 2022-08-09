@@ -14,21 +14,24 @@
   tab-size: 4;
 }
 
-.page-info{
+.page-info {
   width: 808px;
   margin: auto;
 }
 
-.header-image {
-  display: flex;
-  justify-content: center;
-  margin-top: 2em;
-  margin-bottom: 2em;
+.top-bar-image {
+  background-image: url("images/cgfi-nav.png");
+  background-position: center;
+  background-size: fill;
+  height: 177px;
+  width: 100%;
+  margin: auto;
 }
 
-.header-image img {
+.header-image {
   width: 1220px;
   height: 555px;
+  margin: 2em auto;
 }
 
 .opening-header {
@@ -102,7 +105,6 @@
   margin-bottom: 30px;
 }
 
-
 .who-we-are-top h4 {
   font-family: "Roboto", sans-serif;
   font-size: 26px;
@@ -117,7 +119,7 @@
   margin-bottom: 35px;
 }
 
-.who-we-are-list{
+.who-we-are-list {
   width: 720px !important;
 }
 
@@ -154,7 +156,6 @@
   width: 808px;
   height: 208.25px;
 }
-
 
 .some-examples p {
   font-family: "Roboto", sans-serif;
@@ -200,7 +201,7 @@
   margin-top: 55px;
 }
 
-.related-Content{
+.related-Content {
   margin-right: -206px;
   margin-top: 67px;
 }
@@ -268,23 +269,55 @@
   margin-bottom: 30px;
 }
 
-.more-right h3{
+.more-right h3 {
   font-family: "Roboto", sans-serif;
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 0 !important;
 }
 
-.why{
+.why {
   margin-bottom: 100px;
 }
 
-.why h2{
+.why h2 {
   font-size: 44px;
   font-family: Georgia, serif;
 }
 
-.why p{
+.why p {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
+}
+
+.footer{
+  background-image: url('images/footer.png');
+  background-repeat: no-repeat;
+  margin: auto;
+  height: 387px;
+  width: 1300px;
+}
+
+.footer-block{
+  width: auto;
+  height: 387px;
+  background-color: #26313A;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1250px) {
+  .top-bar-image {
+    background-image: url("images/cgfi-nav.png");
+    background-position: center;
+    background-size: cover;
+    height: 130px;
+    width: 100%;
+    margin: auto;
+  }
+  .header-image {
+    width: 880px;
+    height: 450px;
+    margin: 2em auto;
+  }
 }
